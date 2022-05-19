@@ -1,2 +1,2 @@
-# livro-jornada-java
+# Aproveite
 Códigos feitos no livro Jornada Java
