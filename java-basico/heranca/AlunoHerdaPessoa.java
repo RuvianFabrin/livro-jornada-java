@@ -13,5 +13,11 @@ public class AlunoHerdaPessoa extends Pessoa {
         super.fazerAniversario();//Chama o método da SuperClasse Pessoa
         System.out.println("Feliz Aniversário, querido(a) aluno(a)!");
     }
+
+    @Override
+    public void fazerAdmissao() {
+        System.out.println("Peça a seus pais para que você seja admitido(a) na " + this.serie);
+        
+    }
     
 }

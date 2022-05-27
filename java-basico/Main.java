@@ -5,6 +5,7 @@ import java.util.stream.Stream;
 import array.UsandoArrays;
 import heranca.Aluno;
 import heranca.AlunoHerdaPessoa;
+import heranca.Pessoa;
 import heranca.Professor;
 import heranca.ProfessorHerdaPessoa;
 
@@ -37,8 +38,25 @@ public class Main {
         //Código onde Professor e Aluno extendem a mesma classe Pessoa
         ProfessorHerdaPessoa professorH = new ProfessorHerdaPessoa("João", 30, 2000);
         professorH.fazerAniversario();
+        professorH.fazerAdmissao();//Abstração
 
         AlunoHerdaPessoa alunoH = new AlunoHerdaPessoa("Maria", 20, "1º ano");
         alunoH.fazerAniversario();
+        alunoH.fazerAdmissao();//Abstração
+
+
+        //Polimorfismo
+        //O exemplo não funcionou
+        /*
+        //Código onde Professor e Aluno extendem a mesma classe Pessoa
+        Pessoa professor2 = new ProfessorHerdaPessoa("João", 30, 2000);
+        professor2.fazerAniversario();
+
+        Pessoa aluno2 = new AlunoHerdaPessoa("Maria", 20, "1º ano");
+        aluno2.fazerAniversario();
+        
+        
+        
+        */
     }
 }

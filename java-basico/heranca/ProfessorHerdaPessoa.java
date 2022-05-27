@@ -8,5 +8,11 @@ public class ProfessorHerdaPessoa extends Pessoa {
         this.salario = salario;
     }
 
+    @Override
+    public void fazerAdmissao() {
+        System.out.println("Olá, querido(a) professor(a)! Seu salário é de R$" + this.salario);
+        
+    }
+
     
 }
