@@ -1,3 +1,4 @@
+package array;
 public class UsandoArrays {
     //Como declarar um array?
     int[] numeros = new int[10];
